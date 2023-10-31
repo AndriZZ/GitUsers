@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GitUsers</string>
+    <string name="button_ok">OK</string>
+    <string name="error_no_internet">An internet connection is required</string>
+    <string name="error_no_internet_desc">Please ensure a stable internet connection and try again.</string>
+    <string name="error_retrieve_api">We\'ve encountered a problem while attempting to retrieve your data. Please try again.</string>
+    <string name="error_save_api">We\'ve encountered a problem while attempting to save your data. Please try again.</string>
+    <string name="error_general">Something went wrong</string>
+    <string name="github_users">Github Users</string>
+    <string name="search_users">Search through GitHub users..</string>
+    <string name="no_results">No results found.</string>
+    <string name="followers">Followers <b>%d</b></string>
+    <string name="following">Following <b>%d</b></string>
+    <string name="repos">Repositories <b>%d</b></string>
+    <string name="lorem_ipsum_long">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</string>
+    <string name="not_available">Not available</string>
+    <string name="hireable">hireable</string>
+    <string name="follow">follow</string>
+    <string name="highlights">Highlights</string>
+</resources>

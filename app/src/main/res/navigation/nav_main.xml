@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/gitUserListFragment">
+    <fragment
+        android:id="@+id/gitUserListFragment"
+        android:name="com.andriivanov.gitusers.ui.GitUserListFragment"
+        android:label=""
+        tools:layout="@layout/fragment_user_list">
+
+        <action
+            android:id="@+id/action_gitUserListFragment_to_gitUserDetailsFragment"
+            app:destination="@id/gitUserDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim">
+            <argument
+                android:name="user"
+                app:argType="com.andriivanov.gitusers.data.post.UserItem" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/gitUserDetailsFragment"
+        tools:layout="@layout/fragment_user_details"
+        android:name="com.andriivanov.gitusers.ui.GitUserDetailsFragment"
+        android:label="" />
+
+</navigation>
